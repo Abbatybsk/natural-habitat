@@ -1,0 +1,75 @@
+/* Reset default browser style */
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* Global style */
+{
+    font-family: Ariel, Sens-Serif;
+    line-height: 1.5;
+    width: 90%;
+    color: green;
+    margin: 0%;
+
+}
+
+/* header section */
+header {
+    background-color: rgb(34, 240, 168);
+    padding: 0;
+}
+nav ul{
+    list-style: none;
+    display: list-item;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: red;
+    color: #5f90f1;nn
+    font-weight: 600;
+}
+
+nav ul li a:hover{
+    color: rgb(222, 139, 14);
+}
+/* Jan sectio */
+#jan {
+    background-image: url("birds/nature.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-decoration: #3309af;
+}
+h1{
+    color: #e80b67;
+}
+h2{
+    color: #3e04eb;
+}
+/* jan section */
+p{
+    color: goldenrod;
+    background-color: aliceblue;
+}
+h3{
+    color: rgb(206, 54, 140);
+}
+ul{
+    color: rgb(59, 7, 108);
+    background-color: none;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding-top: 20px;
+}
